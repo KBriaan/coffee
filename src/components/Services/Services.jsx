@@ -36,7 +36,7 @@ function Services() {
 
         <div className="text-center mb-20">
           <h1 className="text-4xl font-cursive font-bold text-gray-800">
-            Best Honey offers for you
+            Best coffee offers for you
           </h1>
         </div>
         {/* Service card section */}

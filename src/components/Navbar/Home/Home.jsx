@@ -5,8 +5,8 @@ function Home() {
       <div className="container pb-8 sm:pb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2">
           {/* text content section */}
-          <div className="order-2 sm:order-1">
-            <h1 className="text-5xl sm:*:text-6xl lg:text-7xl font-bold">
+          <div className="order-2 sm:order-1 py-2">
+            <h1 className="text-5xl sm:*:text-6xl lg:text-7xl font-bold py-7">
               We serve the richest <span className="text-primary">honey</span>
               in the city
             </h1>
@@ -17,26 +17,29 @@ function Home() {
             </div>
           </div>
           {/* image content section */}
-          <div className="min-h-[450px] flex justify-center items-center order-1 sm:order-2 relative">
+          <div
+          data-aos='zoom-in'
+          
+          className="min-h-[450px] flex justify-center items-center order-1 sm:order-2 relative">
             <img
               src={HeroImg}
               alt=""
               className="w-[300px] sm:w-[450px] sm:scale-110 mx-auto spin"
             />
-            <div className="bg-gradient-to-r from-primary to-secondary absolute top-10 left-10 p-3 rounded">
+            <div data-aos='fade-left' className="bg-gradient-to-r from-primary to-secondary absolute top-10 left-10 p-3 rounded">
               
               <h1>Hey Hun</h1>
             </div>
 
-            <div className="bg-gradient-to-r from-primary to-secondary absolute top-10 right-10 p-3 rounded">
+            <div data-aos='fade-left' className="bg-gradient-to-r from-primary to-secondary absolute top-10 right-10 p-3 rounded">
               
               <h1>Place Order</h1>
             </div>
-            <div className="bg-gradient-to-r from-primary to-secondary absolute bottom-10 left-10 p-3 rounded-xl">
+            <div data-aos='fade-left' className="bg-gradient-to-r from-primary to-secondary absolute bottom-10 left-10 p-3 rounded-xl">
               
               <h1>and We</h1>
             </div>
-            <div className="bg-gradient-to-r from-primary to-secondary absolute bottom-10 right-10 p-3 rounded-xl">
+            <div data-aos='fade-left' className="bg-gradient-to-r from-primary to-secondary absolute bottom-10 right-10 p-3 rounded-xl">
               
               <h1>Deliver!</h1>
             </div>
