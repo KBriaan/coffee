@@ -3,6 +3,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Navbar/Home/Home';
+import Services from './components/Services/Services';
+import Banner from './components/Banner/Banner';
+import Testimonial from './components/Testimonial/Testimonial';
+import Footer from './components/Footer/Footer';
 function App() {
   useEffect(()=>{
 AOS.init(
@@ -18,6 +22,10 @@ delay:100,
     <div className='overflow-x-hidden '>
       <Navbar/>
       <Home/>
+      <Services/>
+      <Banner/>
+      <Testimonial/>
+      <Footer/>
     </div>
   )
 }
